@@ -66,6 +66,13 @@ h4 {
     font-size: x-small;
 }
 
+.component__codedes {
+    font-family: 'PT Serif', serif;
+    color: #444343;
+    font-size: x-small;
+    font-weight: bolder;
+}
+
 .nav_left {
     display: inline-block;
     font-size: 8px;
@@ -110,3 +117,16 @@ h4 {
     padding: 5px 0px 5px 0px;
     line-height: 1.6;
 }
+.image_grid {
+    align-items: bottom;
+    display: flex;
+    margin: auto;
+}
+.component_imgtall {
+    max-width: 182px;
+}
+
+.component_imgwide {
+    max-width: 230px;
+}
+
