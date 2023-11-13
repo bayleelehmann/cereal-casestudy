@@ -130,3 +130,21 @@ h4 {
     max-width: 230px;
 }
 
+.image_grid-body {
+    display: inline-block;
+    justify-content: ;
+}
+
+.section-scroll {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #444343;
+    align-items: center;
+    border-top: 1px solid #444343;
+    padding: 10px;
+    margin-top: 10px;
+}
+
