@@ -118,12 +118,12 @@ h4 {
     line-height: 1.6;
 }
 .image_grid {
-    align-items: bottom;
     display: flex;
-    margin: auto;
 }
+
 .component_imgtall {
     max-width: 182px;
+
 }
 
 .component_imgwide {
