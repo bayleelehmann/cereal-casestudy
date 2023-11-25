@@ -100,6 +100,11 @@ h4 {
     color: #444343;
 }
 
+/** .home-page **/
+.home-page {
+    position: fixed;
+}
+
 .navbar_left .active {
     border-bottom: 1px solid #444343;
 }
