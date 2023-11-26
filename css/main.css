@@ -56,6 +56,7 @@ h4 {
 
 .component {
     border-bottom: 1px solid #444343;
+    border-top: 1px solid #444343;
     padding-bottom: 15px;
 }
 
@@ -154,9 +155,26 @@ h4 {
 }
 **/
 
-.image_grid {
+.image-list {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 45px;
+}
+
+.compenent .image-grid {
     display: flex;
 }
+
+.image-grid {
+    display: inline-block;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.active a:hover {
+    border: 2px solid black;
+  }
 
 .component_imgtall {
     max-width: 182px;
@@ -169,7 +187,6 @@ h4 {
 
 .image_grid-body {
     display: inline-block;
-    justify-content: ;
 }
 
 .section-scroll {
