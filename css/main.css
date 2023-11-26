@@ -161,19 +161,27 @@ h4 {
     padding-bottom: 45px;
 }
 
-.compenent .image-grid {
-    display: flex;
+.containter {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 0;
+  margin-top: 10px;
 }
+
 
 .image-grid {
     display: inline-block;
     justify-content: space-evenly;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-right: 0;
+    padding-left: 0;
     padding-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.active a:hover {
-    border: 2px solid black;
+a:hover {
+    border: 1px solid black;
   }
 
 .component_imgtall {
@@ -183,10 +191,15 @@ h4 {
 
 .component_imgwide {
     max-width: 230px;
+    padding-left: 5px;
 }
 
 .image_grid-body {
     display: inline-block;
+    justify-content: space-evenly;
+    padding-top: 0;
+    padding-left: 15px;
+    padding-bottom: 20px;
 }
 
 .section-scroll {
@@ -198,8 +211,8 @@ h4 {
     color: #444343;
     align-items: center;
     border-top: 1px solid #444343;
-    padding: 10px;
-    margin-top: 10px;
+    padding: 20px;
+    margin-top: 50px;
 }
 
 .footer {
