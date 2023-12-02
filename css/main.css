@@ -14,6 +14,7 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
     background-color: #F7F6F0;
+    
   }
 
 img { 
@@ -34,6 +35,7 @@ body {
 h1 {
     font-family: 'Sofia Sans Condensed', sans-serif;
     font-size: x-large;
+    padding-left: 15px;
 }
 
 h2 {
@@ -55,7 +57,6 @@ h4 {
 }
 
 .component {
-    border-bottom: 1px solid #444343;
     border-top: 1px solid #444343;
     padding-bottom: 15px;
 }
@@ -92,7 +93,7 @@ h4 {
 }
 
 .listitem2 {
-    padding: 10px 700px 0px 0px;
+    padding: 10px 550px 0px 0px;
 }
 
 .navbar_left {
@@ -101,6 +102,7 @@ h4 {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: lighter;
     color: #444343;
+    padding-left: 50px;
 }
 
 /** .home-page 
@@ -116,6 +118,7 @@ h4 {
     display: inline-block;
     list-style-type: none;
     padding-top: 10px;
+    align-items: center;
 }
 .nav-section {
     display: flex;
@@ -126,6 +129,7 @@ h4 {
     color: #444343;
     font-size: x-small;
     font-weight: bolder;
+    padding: 8px;
 }
 /** not sure if I need
 .navbar_left .active {
@@ -212,6 +216,7 @@ a:hover {
     align-items: center;
     border-top: 1px solid #444343;
     padding: 20px;
+    padding-bottom: 90px;
     margin-top: 50px;
 }
 
@@ -225,18 +230,21 @@ a:hover {
     font-family:Arial, Helvetica, sans-serif;
     font-weight: lighter;
     color: #444343;
-    border-bottom: .5px solid #444343;
+    border-bottom: .5px solid #bbb9b9;
     justify-content: center;
 }
 
 .copyright_bottom {
     justify-content: center;
+    align-items: center;
 }
 .copyright {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     font-family: 'PT Serif', serif;
-    font-size: 8px;
+    font-size: 11px;
     font-weight: lighter;
     color: #444343;
     padding-top: 15px;
