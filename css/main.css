@@ -92,6 +92,7 @@ h4 {
     padding: 10px 30px 0px 0px;
 }
 
+
 .listitem2 {
     padding: 10px 600px 0px 0px;
 }
@@ -159,9 +160,7 @@ h4 {
 }
 **/
 
-a:hover .component_imgtall{
-    border-image-repeat: 1px solid black;
-  }
+
 
 .image-list {
     list-style-type: none;
@@ -170,8 +169,8 @@ a:hover .component_imgtall{
 }
 
 .containter {
-display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   padding: 0;
   margin-top: 10px;
 }
@@ -262,8 +261,3 @@ display: grid;
     padding-bottom: 15px;
 }
 
-a:hover {
-    font-style: italic;
-    font-weight: bold;
-    color: #444343;
-  }
